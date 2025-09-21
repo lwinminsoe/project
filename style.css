@@ -1,0 +1,1042 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    /* background-color: rgba(246, 226, 203, 0.9); */
+    background-color: aliceblue;
+  
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+/* For nav bar */
+.navbar{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color:#e6a875; */
+    background-image: url(./ppimage/cover/contact\ 2.jpg);
+    height: 50px;
+    
+
+}
+
+/* For Logo */
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.logo .logo-img{
+    width: 60px;
+    height: auto;
+    border-radius: 100%;
+    /* padding-top: 2px; */
+    
+}
+
+.logo .logo-text{
+    padding-top: 8px;
+    padding-left: 15px;
+    /* color: rgb(231, 121, 37); */
+    /* color: rgb(160, 210, 250); */
+    color: rgb(210, 166, 251);
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* For nav elements */
+.left-bar ul{
+
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 15px;
+    
+    
+}
+
+
+
+.right-bar ul{
+
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 2em;
+    padding-top: 15px;
+
+}
+/* for Home, standing Desk link */
+.list{
+    text-decoration: none;
+    margin-left: 2em;
+    /* color: antiquewhite; */
+    color: black;
+    /* color: white; */
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.list:hover, .full{
+
+    background-color: rgb(210, 166, 251);
+    border: 1pc solid rgb(210, 166, 251); 
+    border-width: 10px;
+    border-radius: 2em;
+}
+
+/* Rising Desk Dropdown Menu */
+.nav-link .dropdown{
+    /* background-color:rgb(155, 225, 253,0.1); */
+    background-color:rgb(232, 213, 251);
+    position: absolute;
+    padding: 0.5rem 0rem;
+    /* margin: 0.6rem; */
+    margin-top: 7px;
+    margin-left: 2.5rem; 
+    /* color: rgb(234, 222, 222); */
+    color: black;
+    box-shadow: 0 4px 10px;
+    border-radius: 0.5rem;
+    font-size: 15px; 
+    display: none;
+}
+
+.dropdown .drop-li{
+    list-style: none;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.dropdown .menu, .down .menu{
+    text-decoration: none;
+    /* color: white; */
+    /* color: rgb(243, 237, 232); */
+    color: black;
+    margin: 5px;
+}
+
+.nav-link:hover{
+   
+    border-radius: 0.5rem;
+    /* color: azure; */
+    color: black;
+}
+
+.services:hover .dropdown{
+    display: block;
+}
+
+.dropdown .drop-li:hover{
+    /* background-color: rgb(116, 209, 246,0.1); */
+    background-color:rgb(210, 166, 251);
+    border-radius: 0.5rem;
+   
+}
+
+.down{
+    margin-left: 3.5rem -3rem; 
+}
+
+
+/* for welcome text and cover page */
+.header{
+
+    /* background-image: url(./ppimage/cover/h3.jpg); */
+    background-image: url(./ppimage/cover/contact\ 2.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%;
+    
+   
+}
+
+.text{
+    /* text-align: center; */ 
+    text-align: center;
+    padding-top: 130px;
+    color:rgb(210, 166, 251);
+    font-size: 25px;
+    width: 450px;
+}
+
+.black-title{
+    color:black;
+    font-size: 20px;
+}
+
+.standing-text{
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+
+/* For special offer product */
+
+.special{
+           
+}
+
+.special-offer{
+    background-image: url(./ppimage/d1.jpg);
+    height: 350px;
+    
+}
+
+
+/* for special text link */
+.offer-img{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: black;
+    
+    
+}
+
+.top-product{
+    margin-top: 3%;
+    font-size: 50px;
+    text-align: center;
+}
+
+.offer-img:hover{
+    filter: blur(1px);
+}
+
+/* For div special box link */
+
+.special-link{
+    padding-top: 4%; 
+}
+
+/* /* for discount text  */
+
+.sale-1, .sale{
+    font-size: 50px;
+    color: red;
+}
+
+.sale{
+    padding-left: 15px;
+}
+
+/* For Offer Products */
+.offer-products, .rising-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+}
+
+.products, .desk{
+    width: 250px;
+    height: 400px;
+    margin: 3%;
+    border-radius: 12px;
+    background-color: rgb(249, 242, 242);
+}
+/* For offer Image */
+.offer1, .offer2{
+    width: 248px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.product-text{
+    padding-left: 10px;
+}
+
+.more-detatil-btn, .benefit-detatil-btn, .rising-detatil-btn{
+    margin-left: 33%;
+    margin-top: 10%;
+    padding:3px;
+    border-radius: 8px;
+    border-color:  rgb(244, 187, 102);
+    background-color: rgb(252, 163, 54);
+    
+
+}
+
+.more-detatil-btn:hover{
+    background-color: rgb(252, 163, 54);
+    cursor: pointer;
+    border-color: rgb(255, 212, 166);
+   
+
+}
+
+.detail-products, .benefit-details{
+    text-decoration: none;
+    color: black;
+    padding-left: 2px;
+}
+
+.detail-products:hover{
+    color: rgb(242, 246, 250);
+}
+/* For Health Benefits text */
+.health{
+    background-image: url(./ppimage/HealthBenefits/b2.jpg);
+    
+}
+
+.health-text{
+    text-align: center;
+    /* padding-top: 20px; */
+   margin-top: 2%;
+   font-size: 30px;
+   
+}
+
+.health-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 10%; */
+}
+
+.benefit{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(202, 255, 195);
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 350px;
+    padding: 2%;
+    word-spacing: 5px;
+    border-radius: 20px;
+    background-color: rgb(208, 250, 208);
+    
+}
+
+.benefit-container{
+    /* border: 1px solid black; */
+    margin: auto;
+    
+}
+
+.img-benefit{
+    margin-left: 30px;
+    position: relative;
+    left: 50px;
+    
+}
+
+.benefit-img{
+    border-radius: 200px;
+    width: 50px;
+    padding-top: 3px;
+    /* padding-right: 1px; */
+   
+}
+
+
+
+.benefit-text{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.health-container-1{
+    border: 1px solid pink;
+   
+    
+}
+
+.img-1{
+    width: 40px;
+}
+
+.img-2, .img-1{
+    height: 50px;
+}
+
+.benefit-detatil-btn{
+    padding: 10px;
+    background-color: rgb(189, 254, 189);
+    border-color:  rgb(189, 254, 189);
+
+}
+
+.benefit-details:hover{
+    color: rgb(98, 24, 167);
+}
+
+
+/* for Footer */
+footer{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: rgb(247, 244, 240);
+    background-color: rgb(25, 24, 24);
+    margin-top: 20px;
+}
+
+.location{
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+.location-header{
+    text-align: center;
+    font-size: 20px;
+}
+
+.location-text{
+    padding-top: 10px;
+}
+
+.reserved{
+    padding-top: 5%;
+    /* font-weight: bold; */
+
+}
+
+.address{
+    padding-right: 30px;
+    padding-bottom: 2%;  
+    margin-top: 20px;
+
+}
+
+
+    /* for standind Header Text */
+    .standing-text{
+        margin-top: 2%;
+    }
+
+    .standing-header{
+        /* border: 1px solid black ; */
+        /* margin-top: 5%; */
+    }
+    @media screen and (min-width:177px) and (max-width:696px){
+        .standing-text{
+            margin-top: 5%;
+        }
+
+        .standing-head{
+            margin-top: 5%;
+            font-size: 15px;
+
+        }
+
+        .standing-header{
+            margin-top: 20%;
+        }
+        
+    }
+
+    .standing-head{
+        text-align: center;
+    }
+
+/* for rising desk */
+
+    .desk{
+        height: 500px;
+    }
+/* for Add Card Button */
+    .rising-detatil-btn{
+        background-color: rgb(239, 118, 47);
+        border-color: bisque;
+    }
+
+/* for product price */
+
+    .price-text{
+        padding-top: 15px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .price-text .bold{
+        font-size: 16px;
+       
+    }
+/* For Health Benefit Page */
+    .health-1{
+        /* border: 1px solid black; */
+        background-image: url(./ppimage/HealthBenefits/b9.jpg);
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .benefit-head{
+        padding-top: 15%;
+        color: rgb(15, 14, 14); 
+        font-size: 50px;
+        text-align: center;
+        
+    }
+
+    .st-desk, .st-desk-1{
+        color: rgb(167, 254, 161);
+        font-size: 55px;
+        text-transform: uppercase;
+        
+    }
+
+    .st-desk-1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+/* For Whole Benefit Container */
+    .health-benefit-1{
+        /* border: 1px solid black; */
+        margin-top:20px ;
+    }
+/* For Benefits Header and  Text Container */
+    .health-text-1{
+        border: 1px solid rgb(216, 248, 222);
+        border-radius: 20px;
+        margin: 15px;
+        background-color: rgb(216, 248, 222);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+/* For Health Benefits Header Topic */
+    .health-head{
+        padding-left: 20px;
+        font-size: 27px;
+        padding-top: 20px;
+
+    }
+/* for Health Benefits Texts */
+    .benefits-text-1{
+        font-size: 22px;
+        padding-top: 18px; 
+        padding-bottom: 20px;
+        padding-left: 15px;
+    }
+
+/* For contact Us Page */
+    .contact-list{
+        background-color: rgb(195, 212, 215);
+       
+    }
+    .contact-title{
+        text-align: center;
+        word-spacing: 10px;
+        padding-top: 8%;
+        font-family: 'Roboto Mono', monospace;
+        
+    }
+
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        
+    }
+
+    .contact-address{
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 150px;
+        height: 150px;
+        margin-left: 5%;
+        margin-top: 3%;
+        margin-right: 5%;
+        padding-top: 2%;
+        /* background-color: beige; */
+        border-color: rgb(191, 197, 197);
+        
+       
+        
+    }
+
+    .contact-text{
+        padding-left: 30px;
+        padding-top: 10px;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+
+    .contact-text-1{
+        padding-left: 20px;
+        padding-top: 10px;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .contact-text-2{
+        padding-left: 30px;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .emoji{
+        padding-left: 58px;
+        color: rgb(225, 253, 249);
+    }
+
+    .emoji-1{
+        padding-left: 60px;
+        color: rgb(221, 252, 247);
+
+    }
+/* for contact us page */
+    form{
+        text-align: center;
+        margin-top: 3%;
+       
+        
+    }
+/* For Input box */
+    #input-text{
+        border-radius: 10px;
+        background-color: rgb(195, 212, 215,0.1) ;
+        border-color: aliceblue;
+        height: 30px;
+        padding-left: 10px;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .contact-form, .message-btn{
+        margin-top: 2%;
+    }
+
+    #area-text{
+        border-radius: 10px;
+        padding-left: 10px;
+        background-color: rgb(195, 212, 215,0.1) ;
+        border-color: aliceblue;
+       
+    }
+
+    .message-btn{
+        font-family: 'Roboto Mono', monospace;
+        border-radius: 10px;
+        border-color: beige;
+        background-color: rgb(199, 226, 232) ;
+        padding: 7px;
+
+    }
+
+    .sent-text{
+        text-decoration: none;
+        color: rgb(131, 132, 133);
+        padding: 20px;
+    }
+
+    .message-btn:hover{
+        background-color:  rgb(195, 212, 215);
+    }
+
+    .sent-text:hover{
+        color: white;
+    }
+
+
+    
+
+        .popup-container {
+        position: relative;
+        }
+
+        .open-popup-btn {
+        padding: 10px;
+        background-color: #dba634;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        }
+
+        .popup-content {
+        display: none;
+        position: absolute;
+        top: 5%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .close-popup-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        color: #555;
+        cursor: pointer;
+        }
+
+        .open-popup-btn:hover {
+        background-color: #2980b9;
+        }
+
+        .popup-container:hover .popup-content {
+        display: block;
+        }
+    /* For Product Detail_page */
+
+    .container{
+        display: flex;
+        background-color: white;
+        
+    }
+
+    .detail_text, .detail_link, .back{
+        font-family: 'Raleway', sans-serif;
+        font-size: 35px;
+        line-height: 50px;
+        padding-left: 50px;
+        padding-top: 80px;
+    }
+
+    .detail_link, .back{
+        font-size: 18px;
+        text-decoration: none;
+        color: green;
+    }
+
+    .rating, .table_product, .about_item{
+        padding-left:50px ;
+    }
+
+
+    .detail_img{
+        width: 550px;
+        height: 100vh;
+        font-weight: bold;
+    }
+
+    .star, .stared{
+        color: orange;
+    }
+
+    table, .about_container{
+        padding-top: 30px;
+    }
+
+    .brand{
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .brand_detail{
+        padding-left: 150px;
+    }
+    .row{
+        line-height: 50px;
+    }
+
+    .about_list{
+        padding-top: 10px;
+    }
+    .about_text{
+        padding-top: 20px;
+        line-height: 30px;
+    }
+
+    .deli_subcontainer, .price_container{
+        border: 1px solid black;
+        margin-top: 75px;
+        min-height: 250px;
+        font-family: 'Raleway', sans-serif;
+        line-height: 30px;
+        border-radius: 10px;
+    }
+
+    .price_container{
+        margin-top: 10px;
+        min-height: 300px;
+    }
+
+    .deli_text{
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+
+    .deli_save{
+        padding-left: 15px;
+        font-weight: 500px;
+        padding-top: 10px;
+        
+    }
+
+    .price_detail{
+        padding-left: 30px;
+        padding-top: 15px;
+        font-size: 40px;
+    }
+
+    sup{
+        font-size: 15px;
+        
+    }
+/* for free delivery in product detail page */
+
+    .deli_time, .instock{
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+    .monday{
+        font-weight: bold;
+        color: rgb(25, 126, 146);
+    }
+
+    .time, .instock{
+        color: rgb(120, 223, 120);
+        font-weight: bold;
+    }
+
+    .instock{
+        color: rgb(50, 143, 44);
+    }
+
+    select, .addtocart{
+        margin-top: 8px;
+        padding-left: 15px;
+        margin-left: 25px;
+        margin-right: 10px;
+        border-radius: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: rgb(223, 251, 241);
+        border-color: rgb(64, 120, 101);
+        width: 200px;
+        
+    }
+
+    .addtocart{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 180px;
+        margin-left:35px ;
+        background-color: rgb(251, 198, 76);
+        border-color: rgb(241, 192, 103);
+        border-radius: 10px;
+    }
+
+    .cart_link{
+        
+    }
+
+    .price_table{
+        margin-left: 10px;
+    }
+
+    .deli{
+        font-weight: bolder; 
+
+    }
+
+    .detail, .detail_1{
+        padding-left: 25px;
+        
+    }
+
+    .detail_1{
+        color: rgb(10, 141, 141);
+    }
+
+        @media only screen and (min-width:299px) and (max-width:693px){
+            /* * For nav bar */ */
+            .navbar{
+            
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                /* background-color:#e6a875; */
+                background-image: url(./ppimage/cover/contact\ 2.jpg);
+                height: 10vh;
+                
+            
+            }
+            
+            /* For Logo */
+            .logo{
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 30px;
+            }
+            
+            .logo .logo-img{
+                width: 60px;
+                height: auto;
+                border-radius: 100%;
+                /* padding-top: 2px; */
+                
+            }
+            
+            .logo .logo-text{
+                padding-top: 8px;
+                padding-left: 15px;
+                /* color: rgb(231, 121, 37); */
+                /* color: rgb(160, 210, 250); */
+                color: rgb(210, 166, 251);
+                font-weight: bolder;
+                font-size: 16px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            
+            /* For nav elements */
+            .left-bar ul{
+            
+                display: flex;
+                flex-wrap: wrap;
+                list-style: none;
+                justify-content: space-between;
+                padding-top: 15px;
+                
+                
+            }
+            
+            .right-bar ul{
+            
+                display: flex;
+                flex-wrap: wrap;
+                list-style: none;
+                justify-content: space-between;
+                margin-right: 2em;
+                padding-top: 15px;
+            
+            }
+            /* for Home, standing Desk link */
+            .list{
+                text-decoration: none;
+                margin-left: 2em;
+                /* color: antiquewhite; */
+                color: black;
+                /* color: white; */
+                font-weight: bold;
+                font-size: 13px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+               
+            }
+            
+            .list:hover, .full{
+            
+                background-color: rgb(210, 166, 251);
+                border: 1pc solid rgb(210, 166, 251); 
+                border-width: 10px;
+                border-radius: 2em;
+            }
+            
+            /* Rising Desk Dropdown Menu */
+            .nav-link .dropdown{
+                /* background-color:rgb(155, 225, 253,0.1); */
+                background-color:rgb(232, 213, 251);
+                position: absolute;
+                padding: 0.5rem 0rem;
+                /* margin: 0.6rem; */
+                margin-top: 3px;
+                margin-left: 2.5rem; 
+                /* color: rgb(234, 222, 222); */
+                color: black;
+                box-shadow: 0 4px 10px;
+                border-radius: 0.5rem;
+                font-size: 12px; 
+                display: none;
+            }
+            
+            .dropdown .drop-li{
+                list-style: none;
+                height: 100%;
+                padding: 0.5rem 1rem;
+                font-weight: 900;
+                cursor: pointer;
+            }
+            
+            .dropdown .menu, .down .menu{
+                text-decoration: none;
+                /* color: white; */
+                /* color: rgb(243, 237, 232); */
+                color: black;
+                margin: 2px;
+            }
+            
+            .nav-link:hover{
+               
+                border-radius: 0.5rem;
+                /* color: azure; */
+                color: black;
+            }
+            
+            .services:hover .dropdown{
+                display: block;
+            }
+            
+            .dropdown .drop-li:hover{
+                /* background-color: rgb(116, 209, 246,0.1); */
+                background-color:rgb(210, 166, 251);
+                border-radius: 0.5rem;
+               
+            }
+
+            .black-title{
+                color:black;
+                font-size: 10px;
+            }
+
+            .standing-text{
+                padding-top: 7px;
+                padding-left: 15px;
+                font-size: 10px;
+            }
+            
+            .title{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: end;
+                font-size: 10px;
+            }
+
+            /* for welcome text and cover page */
+        .header{
+
+            /* background-image: url(./ppimage/cover/h3.jpg); */
+            background-image: url(./ppimage/cover/contact\ 2.jpg);
+            background-repeat: no-repeat;
+            height: 70px;
+            background-size: 100%;
+            
+        
+        }
+
+
+        .text{
+            /* text-align: center; */ 
+            text-align: center;
+            padding-top: 130px;
+            color:rgb(210, 166, 251);
+            font-size: 25px;
+            width: 450px;
+        }
+                }
+
+
